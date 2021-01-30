@@ -22,12 +22,16 @@ namespace Lab10MovieList
 
             while (true)
             {
+                Console.Write("Which genre would you like to see? (animated, drama, horror, or scifi) ");
+                string userInput = Console.ReadLine().ToLower();
+
                 try
                 {
-                    Console.Write("Which genre would you like to see? (animated, drama, horror, or scifi) ");
-                    string userInput = Console.ReadLine().ToLower().Trim();
-
-                    if (userInput == "animated")
+                    if (userInput == "")
+                    {
+                        throw new Exception("Your input was empty, please enter a valid input: (animated, drama, horror, or scifi)");
+                    }
+                    else if (userInput == "animated")
                     {
                         foreach (Movie i in movies)
                         {
@@ -37,7 +41,7 @@ namespace Lab10MovieList
                             }
                         }
                     }
-                    if (userInput == "drama")
+                    else if (userInput == "drama")
                     {
                         foreach (Movie i in movies)
                         {
@@ -47,7 +51,7 @@ namespace Lab10MovieList
                             }
                         }
                     }
-                    if (userInput == "horror")
+                    else if (userInput == "horror")
                     {
                         foreach (Movie i in movies)
                         {
@@ -57,7 +61,7 @@ namespace Lab10MovieList
                             }
                         }
                     }
-                    if (userInput == "scifi")
+                    else if (userInput == "scifi")
                     {
                         foreach (Movie i in movies)
                         {
@@ -67,19 +71,35 @@ namespace Lab10MovieList
                             }
                         }
                     }
+                    else
+                    {
+                        throw new Exception("Please enter a valid input: (animated, drama, horror, or scifi)");
+                    }
                 }
-                catch (FormatException e)
+                catch (Exception e)
                 {
                     Console.WriteLine($"Invalid input: {e.Message}\n");
                     continue;
                 }
 
-                Console.Write("\nWould you like to view the list of movies from another genre? (y/n) ");
-                string goAgain = Console.ReadLine().ToLower();
-
-                if (goAgain != "y")
+                try
                 {
-                    break;
+                    Console.Write("\nWould you like to view the list of movies from another genre? (y/n) ");
+                    string goAgain = Console.ReadLine().ToLower();
+
+                    if (goAgain == "")
+                    {
+                        throw new Exception("You entered an empty string, please enter (y/n): ");
+                    }
+                    if (goAgain != "y")
+                    {
+                        break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.Write($"Invalid input: {e.Message}\n");
+                    continue;
                 }
             }
         }
