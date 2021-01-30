@@ -1,0 +1,13 @@
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\bin\Debug\netcoreapp3.1\Lab10MovieList.exe
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\bin\Debug\netcoreapp3.1\Lab10MovieList.deps.json
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\bin\Debug\netcoreapp3.1\Lab10MovieList.runtimeconfig.json
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\bin\Debug\netcoreapp3.1\Lab10MovieList.runtimeconfig.dev.json
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\bin\Debug\netcoreapp3.1\Lab10MovieList.dll
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\bin\Debug\netcoreapp3.1\Lab10MovieList.pdb
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\obj\Debug\netcoreapp3.1\Lab10MovieList.csprojAssemblyReference.cache
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\obj\Debug\netcoreapp3.1\Lab10MovieList.AssemblyInfoInputs.cache
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\obj\Debug\netcoreapp3.1\Lab10MovieList.AssemblyInfo.cs
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\obj\Debug\netcoreapp3.1\Lab10MovieList.csproj.CoreCompileInputs.cache
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\obj\Debug\netcoreapp3.1\Lab10MovieList.dll
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\obj\Debug\netcoreapp3.1\Lab10MovieList.pdb
+C:\Users\jwyeth\source\repos\Lab10MovieList\Lab10MovieList\obj\Debug\netcoreapp3.1\Lab10MovieList.genruntimeconfig.cache
